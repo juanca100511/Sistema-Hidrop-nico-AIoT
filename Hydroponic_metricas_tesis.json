@@ -1,0 +1,1340 @@
+import json
+
+# Tu data aquí (sin la asignación inicial)
+data ={
+    "historial": [
+        {
+            "fecha": "2025-07-17",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.9290681990515814,
+                "tds_mean": 850.0,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 5.855140681092151,
+                "ph_despues": 5.9290681990515814,
+                "tds_antes": 619.2481072610403,
+                "tds_despues": 850.0
+            }
+        },
+        {
+            "fecha": "2025-07-18",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 6.124176406165458,
+                "tds_mean": 882.8100616261172,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.7118977148333165,
+                "ph_despues": 6.124176406165458,
+                "tds_antes": 832.234111996634,
+                "tds_despues": 882.8100616261172
+            }
+        },
+        {
+            "fecha": "2025-07-19",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 6.097305722797832,
+                "tds_mean": 874.3759587968955,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.580317504710812,
+                "ph_despues": 6.097305722797832,
+                "tds_antes": 671.651646836805,
+                "tds_despues": 874.3759587968955
+            }
+        },
+        {
+            "fecha": "2025-07-20",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 6.074906974437928,
+                "tds_mean": 872.4444587289897,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.744831856254383,
+                "ph_despues": 6.074906974437928,
+                "tds_antes": 671.2455470200847,
+                "tds_despues": 872.4444587289897
+            }
+        },
+        {
+            "fecha": "2025-07-21",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.945955959278473,
+                "tds_mean": 895.2555716503182,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.960689132408608,
+                "ph_despues": 5.945955959278473,
+                "tds_antes": 836.3752752741225,
+                "tds_despues": 895.2555716503182
+            }
+        },
+        {
+            "fecha": "2025-07-22",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 6.085545623732176,
+                "tds_mean": 880.9365124893638,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.9607406606143964,
+                "ph_despues": 6.085545623732176,
+                "tds_antes": 757.5276565042755,
+                "tds_despues": 880.9365124893638
+            }
+        },
+        {
+            "fecha": "2025-07-23",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.993415478916298,
+                "tds_mean": 868.8183064403,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 5.807783148775125,
+                "ph_despues": 5.993415478916298,
+                "tds_antes": 824.3670867373148,
+                "tds_despues": 868.8183064403
+            }
+        },
+        {
+            "fecha": "2025-07-24",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.916405856251861,
+                "tds_mean": 900.8161038053869,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 5.617123756819791,
+                "ph_despues": 5.916405856251861,
+                "tds_antes": 907.2733211882583,
+                "tds_despues": 900.8161038053869
+            }
+        },
+        {
+            "fecha": "2025-07-25",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.946279962440709,
+                "tds_mean": 850.0,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 7.039119173994452,
+                "ph_despues": 5.946279962440709,
+                "tds_antes": 565.3746568715216,
+                "tds_despues": 850.0
+            }
+        },
+        {
+            "fecha": "2025-07-26",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.899034008765935,
+                "tds_mean": 864.1292529619236,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.574019045669497,
+                "ph_despues": 5.899034008765935,
+                "tds_antes": 521.6738441324763,
+                "tds_despues": 864.1292529619236
+            }
+        },
+        {
+            "fecha": "2025-07-27",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 6.072171112839031,
+                "tds_mean": 850.0,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 7.091273037601871,
+                "ph_despues": 6.072171112839031,
+                "tds_antes": 671.9249386896097,
+                "tds_despues": 850.0
+            }
+        },
+        {
+            "fecha": "2025-07-28",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 6.070416838086039,
+                "tds_mean": 909.9376165152686,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.486301165668448,
+                "ph_despues": 6.070416838086039,
+                "tds_antes": 903.5222333465066,
+                "tds_despues": 909.9376165152686
+            }
+        },
+        {
+            "fecha": "2025-07-29",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.916856708634655,
+                "tds_mean": 906.3967227984651,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 7.062300473438397,
+                "ph_despues": 5.916856708634655,
+                "tds_antes": 959.0598064026551,
+                "tds_despues": 906.3967227984651
+            }
+        },
+        {
+            "fecha": "2025-07-30",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.987485775649482,
+                "tds_mean": 850.0,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.763757582130572,
+                "ph_despues": 5.987485775649482,
+                "tds_antes": 562.1837404042515,
+                "tds_despues": 850.0
+            }
+        },
+        {
+            "fecha": "2025-07-31",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 6.023675777687808,
+                "tds_mean": 918.6068207601628,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.410239146976955,
+                "ph_despues": 6.023675777687808,
+                "tds_antes": 926.8960812629251,
+                "tds_despues": 918.6068207601628
+            }
+        },
+        {
+            "fecha": "2025-08-01",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.906698044296778,
+                "tds_mean": 882.9421386815546,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 7.093628907122051,
+                "ph_despues": 5.906698044296778,
+                "tds_antes": 797.6324248716228,
+                "tds_despues": 882.9421386815546
+            }
+        },
+        {
+            "fecha": "2025-08-02",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 6.074965029221958,
+                "tds_mean": 900.6663841609062,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 7.013546948876516,
+                "ph_despues": 6.074965029221958,
+                "tds_antes": 942.9682561612552,
+                "tds_despues": 900.6663841609062
+            }
+        },
+        {
+            "fecha": "2025-08-03",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.939723019532758,
+                "tds_mean": 915.1933059559246,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 5.613661494862519,
+                "ph_despues": 5.939723019532758,
+                "tds_antes": 930.2360340559958,
+                "tds_despues": 915.1933059559246
+            }
+        },
+        {
+            "fecha": "2025-08-04",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.888738471222535,
+                "tds_mean": 867.0552901717535,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.933241233319807,
+                "ph_despues": 5.888738471222535,
+                "tds_antes": 770.275148710444,
+                "tds_despues": 867.0552901717535
+            }
+        },
+        {
+            "fecha": "2025-08-05",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.932298398321405,
+                "tds_mean": 860.2531797152402,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.675116629943495,
+                "ph_despues": 5.932298398321405,
+                "tds_antes": 751.5878892371588,
+                "tds_despues": 860.2531797152402
+            }
+        },
+        {
+            "fecha": "2025-08-06",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.9702333858691246,
+                "tds_mean": 895.0401930278013,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.74972840730329,
+                "ph_despues": 5.9702333858691246,
+                "tds_antes": 803.8484639480521,
+                "tds_despues": 895.0401930278013
+            }
+        },
+        {
+            "fecha": "2025-08-07",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.931239397284572,
+                "tds_mean": 877.3126338798797,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 7.027606079732582,
+                "ph_despues": 5.931239397284572,
+                "tds_antes": 752.3232963022449,
+                "tds_despues": 877.3126338798797
+            }
+        },
+        {
+            "fecha": "2025-08-08",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 6.096479896087262,
+                "tds_mean": 850.0,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.993550931643689,
+                "ph_despues": 6.096479896087262,
+                "tds_antes": 553.573091712442,
+                "tds_despues": 850.0
+            }
+        },
+        {
+            "fecha": "2025-08-09",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 6.000151126479295,
+                "tds_mean": 850.0,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.638160449395538,
+                "ph_despues": 6.000151126479295,
+                "tds_antes": 636.4562646468804,
+                "tds_despues": 850.0
+            }
+        },
+        {
+            "fecha": "2025-08-10",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.914336302902373,
+                "tds_mean": 923.4832738911763,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 5.709259087486113,
+                "ph_despues": 5.914336302902373,
+                "tds_antes": 999.9542574299826,
+                "tds_despues": 923.4832738911763
+            }
+        },
+        {
+            "fecha": "2025-08-11",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 6.027463232865302,
+                "tds_mean": 874.5305415348204,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 7.02972810855989,
+                "ph_despues": 6.027463232865302,
+                "tds_antes": 755.2608271828151,
+                "tds_despues": 874.5305415348204
+            }
+        },
+        {
+            "fecha": "2025-08-12",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.913943803651664,
+                "tds_mean": 905.0310053990901,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 5.624697870397791,
+                "ph_despues": 5.913943803651664,
+                "tds_antes": 996.9787203471673,
+                "tds_despues": 905.0310053990901
+            }
+        },
+        {
+            "fecha": "2025-08-13",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 6.091846349638474,
+                "tds_mean": 909.3373465885865,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 5.8751480754241685,
+                "ph_despues": 6.091846349638474,
+                "tds_antes": 953.1847335382371,
+                "tds_despues": 909.3373465885865
+            }
+        },
+        {
+            "fecha": "2025-08-14",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.9038358887263085,
+                "tds_mean": 901.8386608437717,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.53386952940911,
+                "ph_despues": 5.9038358887263085,
+                "tds_antes": 911.4595648570283,
+                "tds_despues": 901.8386608437717
+            }
+        },
+        {
+            "fecha": "2025-08-15",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.964359121905871,
+                "tds_mean": 906.9006149447961,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.710833791786266,
+                "ph_despues": 5.964359121905871,
+                "tds_antes": 931.1088048407333,
+                "tds_despues": 906.9006149447961
+            }
+        },
+        {
+            "fecha": "2025-08-16",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 6.0153221765866425,
+                "tds_mean": 935.3754819360394,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.868928400785015,
+                "ph_despues": 6.0153221765866425,
+                "tds_antes": 999.3776077232444,
+                "tds_despues": 935.3754819360394
+            }
+        },
+        {
+            "fecha": "2025-08-17",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.937729348956926,
+                "tds_mean": 906.9838809063057,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 7.0898262908969905,
+                "ph_despues": 5.937729348956926,
+                "tds_antes": 923.6309119127571,
+                "tds_despues": 906.9838809063057
+            }
+        },
+        {
+            "fecha": "2025-08-18",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.921173001007107,
+                "tds_mean": 893.3269566570924,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 7.09402717996212,
+                "ph_despues": 5.921173001007107,
+                "tds_antes": 778.4452248183036,
+                "tds_despues": 893.3269566570924
+            }
+        },
+        {
+            "fecha": "2025-08-19",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 6.02021998109129,
+                "tds_mean": 854.8743080524378,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.52701942697687,
+                "ph_despues": 6.02021998109129,
+                "tds_antes": 554.808290058072,
+                "tds_despues": 854.8743080524378
+            }
+        },
+        {
+            "fecha": "2025-08-20",
+            "metadatos": {
+                "sistema": "Linux-6.6.56+-x86_64-with-glibc2.35",
+                "python_version": "3.11.13",
+                "inicio_ejecucion": "2025-09-17T00:41:57.258318",
+                "duracion_total": 100.0,
+                "configuracion": {
+                    "TARGET_PH": 6.0,
+                    "TARGET_EC": 850,
+                    "PH_LIMITS": [
+                        5.5,
+                        6.5
+                    ],
+                    "EC_LIMITS": [
+                        700,
+                        950
+                    ],
+                    "VMAX_PH": 0.1,
+                    "VMAX_EC": 10
+                }
+            },
+            "estadisticas": {
+                "ph_mean": 5.875110499615605,
+                "tds_mean": 856.383534258086,
+                "rendimiento_promedio": 0,
+                "accion_ph_mean": 0,
+                "accion_tds_mean": 0,
+                "memoria_promedio": 0,
+                "cpu_promedio": 0
+            },
+            "datos_completos": {
+                "ph_antes": 6.870955368433623,
+                "ph_despues": 5.875110499615605,
+                "tds_antes": 574.2012495226986,
+                "tds_despues": 856.383534258086
+            }
+        }
+    ]
+}
+# Guardar como archivo
+with open('Hydroponic_metricas_tesis_acumulado.json', 'w') as f:
+    json.dump(data, f, indent=4)
