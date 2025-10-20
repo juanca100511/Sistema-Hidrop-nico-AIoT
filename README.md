@@ -42,4 +42,3 @@ Permite **monitorear y controlar parámetros críticos (pH, TDS, temperatura)**,
         I --> J[💧 Bombas peristálticas + Bomba recirculación]
     end
 
-    E --> K[📊 Registro JSON / CSV / PNG]
