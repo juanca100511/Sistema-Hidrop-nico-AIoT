@@ -24,4 +24,22 @@ Permite **monitorear y controlar parámetros críticos (pH, TDS, temperatura)**,
 
 ---
 
+## ⚙️ Arquitectura del sistema
+
+
+    subgraph Alimentación Solar
+        A[☀️ Panel Solar] --> B[🔋 Controlador de carga]
+        B --> C[🔋 Batería 12V]
+        C --> D[⚙️ Regulador DC-DC 5V]
+    end
+
+    subgraph Electrónica AIoT
+        D --> E[🖥️ Raspberry Pi 4B\n(SAC AI Controller)]
+        E --> F[📈 Módulo ADS1015\nLectura analógica I2C]
+        F --> G[🌿 Sensores pH / TDS / DHT11]
+        E --> H[📟 LCD I2C (PCF8574)]
+        E --> I[🔌 Módulo Relé 4 canales]
+        I --> J[💧 Bombas peristálticas + Bomba recirculación]
+    end
+
     E --> K[📊 Registro JSON / CSV / PNG]
